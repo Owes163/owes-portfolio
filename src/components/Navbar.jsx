@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Styles/Navbar.css';
 import ResumeFile from '../assets/Owes Resume.pdf';
-import OSLogo from '../assets/OS.png';
+import OSLogo from "../assets/os.png";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
